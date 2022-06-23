@@ -10,7 +10,7 @@ pipeline {
         message "What is your first name?"
         ok "Submit"
         parameters {
-          string(defaultValue: 'Dave', name: 'FIRST_NAME', trim: true) 
+          string(defaultValue: 'Riya', name: 'FIRST_NAME', trim: true) 
         }
       }
       options {
